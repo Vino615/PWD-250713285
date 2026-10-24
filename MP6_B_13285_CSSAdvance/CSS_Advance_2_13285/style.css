@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #edf2ee;
+    color: #000000;
+    margin: 20px;
+}
+
+#wrapper{
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #8c8585;
+}
+
+h1{
+    text-align:center;
+    font-size:24px;
+    color: #326147;
+}
+
+.deskripsi{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+h3{
+    color: #326147;
+    background-color: #e2ebe4;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.kolom-label {
+    width: 32%;
+    background-color: #f0f5f1;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 3px;
+}
+
+td p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.catatan {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 8px;
+}
+
+.tombol {
+    text-align: center;
+    background-color: #e2ebe4;
+}
+
+input[type="submit"] {
+    background-color: #326147;
+    color: white;
+    border: 1px solid #326147;
+    padding: 8px 20px;
+    cursor: pointer;
+}

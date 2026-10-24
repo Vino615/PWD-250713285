@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8eef5;
+    color: #333333;
+    margin: 20px;
+}
+
+#wrapper {
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #c8c4d2;
+}
+
+h1 {
+    text-align: center;
+    color: #094381;
+    font-size: 24px;
+}
+
+#wrapper > p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+td:first-child {
+    width: 220px;
+    background-color: #f0f4f8;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 3px;
+}
+
+td p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.tombol {
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+input[type="submit"] {
+    background-color: #244b74;
+    color: white;
+    border: 1px solid #244b74;
+    padding: 8px 20px;
+    cursor: pointer;
+}
